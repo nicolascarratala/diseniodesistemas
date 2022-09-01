@@ -1,0 +1,22 @@
+package Herencia;
+
+public class Alumno extends Persona {
+	private int legajo;
+
+	public getPersona() {
+		return Persona;
+	}
+
+	public void setPersona(persona) {
+		Persona = persona;
+	}
+
+	public int getLegajo() {
+		return legajo;
+	}
+
+	public void setLegajo(int legajo) {
+		this.legajo = legajo;
+	}
+	
+}

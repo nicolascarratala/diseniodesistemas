@@ -1,0 +1,11 @@
+package ejercicio3;
+
+public class MontoRecaudado {
+
+	public Impuestos m_Impuestos;
+
+	public MontoRecaudado(){
+
+	}
+
+}

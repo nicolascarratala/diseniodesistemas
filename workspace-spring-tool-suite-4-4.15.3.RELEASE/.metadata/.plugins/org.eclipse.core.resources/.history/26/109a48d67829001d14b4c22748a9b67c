@@ -1,0 +1,20 @@
+package ejercicio3;
+
+public class Gastopublico {
+	public Mantenimiento mantenimiento;
+	
+	public Gastopublico(int i) {
+		mantenimiento = new Mantenimiento();
+
+	}
+
+	public Mantenimiento getMantenimiento() {
+		return mantenimiento;
+	}
+
+	public void setMantenimiento(Mantenimiento mantenimiento) {
+		this.mantenimiento = mantenimiento;
+	}
+
+	
+}

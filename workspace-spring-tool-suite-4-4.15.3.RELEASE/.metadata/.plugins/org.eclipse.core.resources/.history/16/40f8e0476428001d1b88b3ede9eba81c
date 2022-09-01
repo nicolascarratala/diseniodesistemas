@@ -1,0 +1,10 @@
+
+public class MontoRecaudado {
+
+	private Impuestos m_Impuestos;
+
+	public MontoRecaudado(){
+
+	}
+
+}

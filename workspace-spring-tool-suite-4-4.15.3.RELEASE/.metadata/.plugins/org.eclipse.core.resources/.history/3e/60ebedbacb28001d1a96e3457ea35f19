@@ -1,0 +1,47 @@
+package ejercicio3;
+
+public class Pais {
+
+	public char m_Ciudades;
+	public int m_MontoRecaudado;
+	public int m_Gastopublico;
+	
+	public Pais(){
+
+	}
+
+	public Pais(char m_Ciudades, int m_MontoRecaudado, int m_Gastopublico) {
+		super();
+		this.m_Ciudades = m_Ciudades;
+		this.m_MontoRecaudado = (int) m_MontoRecaudado;
+		this.m_Gastopublico = m_Gastopublico;
+	}
+
+	public char getM_Ciudades() {
+		return m_Ciudades;
+	}
+
+	public void setM_Ciudades(char m_Ciudades) {
+		this.m_Ciudades = m_Ciudades;
+	}
+
+	public int getM_MontoRecaudado() {
+		return m_MontoRecaudado;
+	}
+
+	public void setM_MontoRecaudado(int m_MontoRecaudado) {
+		this.m_MontoRecaudado = m_MontoRecaudado;
+	}
+
+	public int getM_Gastopublico() {
+		return m_Gastopublico;
+	}
+
+	public void setM_Gastopublico(int m_Gastopublico) {
+		this.m_Gastopublico = m_Gastopublico;
+	}
+
+
+
+
+}

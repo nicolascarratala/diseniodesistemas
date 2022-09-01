@@ -1,0 +1,24 @@
+package Main_principal;
+import Continente.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Continente c1= new Continente ("America", "36");
+		Pais p1= new Pais ("Argalia", "25");
+		Provincia pro1 = new provincia ("Salta","1000");
+		Provincia pro2 = new provincia ("Mendoza","1070");
+		Provincia pro3 = new provincia ("La Plata","1023");
+		Provincia pro4 = new provincia ("Humahuaca","1500");
+		Cuidad cui1 = new  cuidad ("Lalant");
+		Cuidad cui2 = new  cuidad ("Brillo");
+		Cuidad cui3 = new  cuidad ("Esperanza");
+		Cuidad cui4 = new  cuidad ("Galleta");
+		Capital cap1 = new capital ("Argalia.DC");
+		
+		
+		System.out.println("El Continente"+c1.getNombreC()+""+"y esta compuesto por"+c1.getcant_paises()+""+"Uno de ellos es:"+p1.getNombreP());
+		System.out.println("El mismo tiene "+p1.getcant_provincias()+" provincias, ademas cuenta con diferentes ciudades como:"+cui1.getNombreCui()+","+cui2.getNombreCui()+","+cui3.getNombreCui()+","+cui4.getNombreCui()+","+" y una capital llamada "+cap1.Nombre_capital());
+	}
+
+}

@@ -1,0 +1,26 @@
+package Principal;
+import ejercicio3.Ciudades;
+import ejercicio3.Gastopublico;
+import java.util.ArrayList;
+import ejercicio3.Pais;
+public class Main {
+	
+	public static void main (String[] args) {
+		
+		 Pais p1 = new Pais("",5464,5465);
+         Ciudades c1 = new Ciudades();
+         p1.setCiudades(c1);
+         ArrayList<String> ciudades = new ArrayList<String>();
+         ciudades.add("Mendoza");
+         ciudades.add("San Juan");
+         ciudades.add("Cordoba");
+         ciudades.add("Santa Fe");
+         for (String i : ciudades) {
+             System.out.println("La ciudad es:"+ i.toString()+ " Su monto Recaudado es: ");
+         }
+  
+
+    
+
+	}
+}

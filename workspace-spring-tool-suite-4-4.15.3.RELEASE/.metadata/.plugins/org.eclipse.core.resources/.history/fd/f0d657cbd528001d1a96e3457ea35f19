@@ -1,0 +1,24 @@
+package ejercicio3;
+
+public class MontoRecaudado {
+
+	public Impuestos m_Impuestos;
+
+	public MontoRecaudado(){
+
+	}
+
+	public Impuestos getM_Impuestos() {
+		return m_Impuestos;
+	}
+
+	public void setM_Impuestos(Impuestos m_Impuestos) {
+		this.m_Impuestos = m_Impuestos;
+	}
+
+	public MontoRecaudado(Impuestos m_Impuestos) {
+		super();
+		this.m_Impuestos = m_Impuestos;
+	}
+
+}
