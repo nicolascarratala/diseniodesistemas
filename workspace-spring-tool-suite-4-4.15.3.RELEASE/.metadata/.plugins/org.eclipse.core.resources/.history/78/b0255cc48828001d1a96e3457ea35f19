@@ -1,7 +1,0 @@
-package Principal;
-
-import ejercicio3.Ciudades;
-
-public class Ciudad extends Ciudades {
-
-}
