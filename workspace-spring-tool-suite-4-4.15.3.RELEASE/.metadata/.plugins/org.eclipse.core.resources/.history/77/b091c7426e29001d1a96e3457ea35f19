@@ -1,0 +1,45 @@
+package Continente;
+
+public abstract class Pais {
+
+	public Capital tiene;
+	public Pais limita_con;
+	public Provincia esta_compuesto_por;
+	private String NombreP;
+	private int cant_provincias;
+	
+	public Pais(){
+
+	}
+
+	public Pais(Capital tiene, Pais limita_con, Provincia esta_compuesto_por, String nombreP, int cant_provincias) {
+		this.tiene = tiene;
+		this.limita_con = limita_con;
+		this.esta_compuesto_por = new esta_compuesto_por;
+		NombreP = nombreP;
+		this.cant_provincias = cant_provincias;
+	}
+
+
+	private String getNombreP() {
+		return NombreP;
+	}
+
+	private void setNombreP(String nombreP) {
+		NombreP = nombreP;
+	}
+
+	private int getCant_provincias() {
+		return cant_provincias;
+	}
+
+	private void setCant_provincias(int cant_provincias) {
+		this.cant_provincias = cant_provincias;
+	}
+	
+	
+}
+
+
+
+

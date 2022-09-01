@@ -1,0 +1,12 @@
+package ejercicio3;
+
+public class Ciudades extends Pais{
+	
+
+
+	public Ciudades() {
+		
+	}
+		
+
+}

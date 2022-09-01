@@ -1,0 +1,12 @@
+package ejercicio3;
+
+public class MontoRecaudado {
+
+	public Impuestos impuestos;
+
+	public MontoRecaudado(){
+		impuestos = new Impuestos(0, 0, 0, 0, 0);
+	}
+
+
+}

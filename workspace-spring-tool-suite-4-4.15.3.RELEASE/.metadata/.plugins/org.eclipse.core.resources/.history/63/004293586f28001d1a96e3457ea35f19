@@ -1,0 +1,14 @@
+package ejercicio3;
+
+public abstract class Pais {
+
+	private Ciudades m_Ciudades;
+	private MontoRecaudado m_MontoRecaudado;
+	private Gastopublico m_Gastopublico;
+
+	public Pais(){
+
+	}
+
+
+}

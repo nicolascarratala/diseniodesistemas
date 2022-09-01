@@ -1,0 +1,23 @@
+package Main;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Persona p1= new Persona("Mariana","Giacconi",20);
+		Domicilio d1=new Domicilio("sta maria de oro", 855);
+		Persona p2= new Persona("nico","carratala",26);
+		Domicilio d2=new Domicilio("costa", 1600);
+		p1.setDomi(d1);
+		d1.setEsde(p1);
+		p2.setDomi(d2);
+		d2.setEsde(p2);
+		
+		
+	System.out.println("La persona es" +" "+p1.getNombre()+ " "+p1.getApellido()+" "+p1.getEdad());
+	System.out.println("La direccion es"+" " +d1.getCalle()+" "+ d1.getNumero());		
+	System.out.println("La persona es" +" "+p2.getNombre()+ " "+p2.getApellido()+" "+p2.getEdad());
+	System.out.println("La direccion es"+" " +d2.getCalle()+" "+ d2.getNumero());	
+	}
+
+}

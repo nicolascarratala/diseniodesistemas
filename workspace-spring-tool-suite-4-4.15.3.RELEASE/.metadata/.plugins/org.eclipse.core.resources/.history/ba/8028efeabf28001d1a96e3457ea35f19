@@ -1,0 +1,57 @@
+package ejercicio3;
+
+public abstract class Ciudades {
+
+	public Ciudades(char ciudad) {
+		super();
+	}
+
+	public int cant_habitantes;
+	public MontoRecaudado m_MontoRecaudado;
+	public Gastopublico m_Gastopublico;
+	public Ciudades(int cant_habitantes, MontoRecaudado m_MontoRecaudado, Gastopublico m_Gastopublico) {
+		super();
+		this.cant_habitantes = cant_habitantes;
+		this.m_MontoRecaudado = m_MontoRecaudado;
+		this.m_Gastopublico = m_Gastopublico;
+	}
+
+	public int getCant_habitantes() {
+		return cant_habitantes;
+	}
+
+	public void setCant_habitantes(int cant_habitantes) {
+		this.cant_habitantes = cant_habitantes;
+	}
+
+	public MontoRecaudado getM_MontoRecaudado() {
+		return m_MontoRecaudado;
+	}
+
+	public void setM_MontoRecaudado(int i) {
+		this.m_MontoRecaudado = getM_MontoRecaudado();
+	}
+
+	public Gastopublico getM_Gastopublico() {
+		return m_Gastopublico;
+	}
+
+	public void setM_Gastopublico(Gastopublico m_Gastopublico) {
+		this.m_Gastopublico = m_Gastopublico;
+	}
+
+	
+
+	public Ciudades(){
+
+	}
+
+	public String getCiudad() {
+		
+		return null;
+	}
+
+	public void setCiudad(String ciudad) {
+	}
+
+}

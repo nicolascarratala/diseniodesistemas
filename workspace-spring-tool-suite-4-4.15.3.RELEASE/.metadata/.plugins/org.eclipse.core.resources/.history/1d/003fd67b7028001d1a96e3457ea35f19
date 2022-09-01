@@ -1,0 +1,19 @@
+package ejercicio3;
+
+public abstract class  Gastopublico {
+
+	public Mantenimiento m_Mantenimiento;
+
+	public Gastopublico(){
+
+	}
+
+	public Mantenimiento getM_Mantenimiento() {
+		return m_Mantenimiento;
+	}
+
+	public void setM_Mantenimiento(Mantenimiento m_Mantenimiento) {
+		this.m_Mantenimiento = m_Mantenimiento;
+	}
+
+}

@@ -1,0 +1,9 @@
+public class Gastopublico {
+
+	public Mantenimiento m_Mantenimiento;
+
+	public Gastopublico(){
+
+	}
+
+}
